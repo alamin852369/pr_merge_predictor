@@ -43,9 +43,6 @@ The pipeline covers:
 
 • Evaluation and visualization of results.
 
-## Proposed Method
-
-<img width="999" height="572" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/cd8ae858-7066-4bb6-a821-3a65246a96cb" />
 
 
 ## Dataset
@@ -81,6 +78,10 @@ Data paths are configurable in src/config.py
 **Classifier:** Logistic Regression with class balancing.
 
 **Evaluation metrics:** Accuracy, Precision, Recall, F1, ROC-AUC.
+
+### Proposed Method
+
+<img width="999" height="572" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/04b7b773-95ce-4029-81f5-6aaa9f244a9e" />
 
 
 ## Results

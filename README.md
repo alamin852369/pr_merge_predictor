@@ -1,4 +1,4 @@
-# PR Merge Predictor (Modularized)
+# PR Merge Predictor
 
 This project refactors your single script into a small, readable Python package with clear responsibilities.
 

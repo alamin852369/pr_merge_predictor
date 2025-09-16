@@ -5,7 +5,6 @@ This project refactors your single script into a small, readable Python package 
 ## Quick Start
 
 ```bash
-python -m venv .venv && source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Run with curated subset (default)

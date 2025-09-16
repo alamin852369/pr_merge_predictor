@@ -2,7 +2,7 @@
 
 This project refactors your single script into a small, readable Python package with clear responsibilities.
 
-## Quick Start
+# Quick Start
 
 ```bash
 pip install -r requirements.txt
@@ -14,7 +14,7 @@ python -m src.main --use-curated
 python -m src.main --no-use-curated
 ```
 
-## Project Layout
+# Project Layout
 
 ```
 src/

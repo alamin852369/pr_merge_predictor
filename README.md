@@ -31,7 +31,7 @@ results/
 
 
 
-#Overview
+## Overview
 
 This project addresses the task of predicting whether a GitHub Pull Request (PR) will be merged or closed without merging.
 
@@ -45,7 +45,7 @@ The pipeline covers:
 
 • Evaluation and visualization of results.
 
-#Dataset
+## Dataset
 
 We use the AIDev dataset (hao-li/AIDev) hosted on HuggingFace.
 Two variants are supported:

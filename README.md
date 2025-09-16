@@ -45,10 +45,10 @@ The pipeline covers:
 
 ## Dataset
 
-We use the AIDev dataset (hao-li/AIDev) hosted on HuggingFace.
+We use the AIDev dataset hosted on HuggingFace.
 Two variants are supported:
 
-• **Curated subset (default):** includes commit details and review comments.
+• **Curated subset:** includes commit details and review comments.
 
 • **Full dataset:** larger but without commit/review features.
 

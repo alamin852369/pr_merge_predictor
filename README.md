@@ -1,7 +1,5 @@
 # PR Merge Predictor
 
-This project refactors your single script into a small, readable Python package with clear responsibilities.
-
 # Quick Start
 
 ```bash

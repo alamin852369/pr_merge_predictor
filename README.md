@@ -28,3 +28,30 @@ results/
   figs/                  # saved figures (created at runtime)
   tables/                # saved CSVs (created at runtime)
 ```
+
+
+
+##Overview
+
+This project addresses the task of predicting whether a GitHub Pull Request (PR) will be merged or closed without merging.
+
+The pipeline covers:
+
+• Dataset loading (curated PR data from HuggingFace).
+
+• Feature engineering (text, time, patch statistics, repository metadata).
+
+• Model training with Logistic Regression.
+
+• Evaluation and visualization of results.
+
+##Dataset
+
+We use the AIDev dataset (hao-li/AIDev) hosted on HuggingFace.
+Two variants are supported:
+
+• Curated subset (default): includes commit details and review comments.
+
+• Full dataset: larger but without commit/review features.
+
+Data paths are configurable in src/config.py

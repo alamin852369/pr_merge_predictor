@@ -28,4 +28,3 @@ results/
   figs/                  # saved figures (created at runtime)
   tables/                # saved CSVs (created at runtime)
 ```
-<img width="805" height="243" alt="image" src="https://github.com/user-attachments/assets/01387e98-d576-4aff-a512-339dbee5c785" />

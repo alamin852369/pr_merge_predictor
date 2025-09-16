@@ -29,15 +29,3 @@ results/
   figs/                  # saved figures (created at runtime)
   tables/                # saved CSVs (created at runtime)
 ```
-
-Key entry points:
-- `src/main.py` is the CLI. See `--help` for options like `--top-n` and `--seed`.
-- Figures and CSVs are written under `results/` (same as your original script).
-
-> Note: The Hugging Face parquet URIs are preserved. If an auth token is required,
-> log in before running:
->
-> ```python
-> from huggingface_hub import login
-> login()  # paste your token
-> ```

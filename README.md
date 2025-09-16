@@ -1,4 +1,4 @@
-# PR Merge Predictor
+# Pull Request Merge Predictor
 
 # Quick Start
 
@@ -17,11 +17,11 @@ python -m src.main --no-use-curated
 ```
 src/
   config.py              # global flags, paths, seed
-  data_io.py             # loading parquet + basic normalization
+  data_io.py             # loading + basic normalization
   features.py            # feature engineering & modeling table build
   model.py               # preprocessing, training, coef extraction
   evaluation.py          # metrics, plots, artifact saving
-  main.py                # end-to-end orchestration + CLI
+  main.py                # end-to-end training
 results/
   figs/                  # saved figures (created at runtime)
   tables/                # saved CSVs (created at runtime)
